@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Ping Pong Game</title>
+
+</head>
+
+<body class="container">
+	<header id="heading">
+    <h1>Ping Pong Site</h1>
+	</header>
+    <p>Enter an Integer as the end number for the game; then click "Begin" to play.</p>
+
+    <form id="pingpong">
+        <label for="pingpongEndNumber">Game End Number:</label>
+        <input type="number" class="form-control" id="pingpongEndNumber" placeholder="Enter Game End number, as an Integer"><br>
+    </form>
+
+    <button class="btn btn-primary" onclick="myFunction()">Begin</button>
+
+    <div>
+        <ul class="list-unstyled" id="results"></ul>
+    </div>
+
+
+</body>
+</html>
